@@ -42,7 +42,6 @@
 
         certImages.forEach(img => {
             img.addEventListener('click', () => {
-                // Since we're using placeholder certificates, we'll create a sample image
                 lightboxImg.src = img.src;
                 lightbox.style.display = 'flex';
             });
