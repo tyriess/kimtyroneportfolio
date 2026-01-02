@@ -681,6 +681,7 @@
 
         /* Mobile Styles */
         @media (max-width: 768px) {
+
             .navbar {
                 top: 10px;
                 width: calc(100% - 20px);
@@ -726,7 +727,9 @@
             }
 
             .dark-mode-toggle {
-                display: none;
+                display: flex;
+                position: absolute;
+                left: 10px;  
             }
 
             .main {
